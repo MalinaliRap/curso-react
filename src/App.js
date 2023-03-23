@@ -1,18 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Pessoa from './components/Pessoa';
-import Frase from './components/Frase';
-import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
   
 
   return (
     <div className="App">
-      <Frase />
-      <h1>Testando CSS</h1>
-      <Pessoa nome="Mali" idade="28" profissao="Programador" foto="https://via.placeholder.com/150"/>
-      <List />
+      <h1>Testando Evento</h1>
+      <Evento numero={1}/>
+      <Evento numero={2}/>
+      <Form/>
     </div>
   );
 }
